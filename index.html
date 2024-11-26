@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Music Player</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="https://kit.fontawesome.com/787a9d8d6d.js" crossorigin="anonymous"></script>
+</head>
+<body>
+    <div class="hero">
+        <div class="container">
+            <div class="header">
+                <button type="button" class="topb"><i class="fa-solid fa-backward"></i></button>
+                <button type="menu" class="topb"><i class="fa-solid fa-bars"></i></button>
+            </div>
+            <div class="image">
+                <img src="images/468-thumbnail.png" alt="">
+            </div>
+            <div class="about">
+                <p class="songN">Despacito</p>
+                <p class="singer">Luis Fonsi Ft. Puerto Rican</p>
+            </div>
+            <div class="audiobar">
+                <audio  id="song">
+                    <source src="song/KILLSHOT.mp3">
+                </audio>
+            </div>
+            <div class="progress">
+                <center><input type="range" value="0" id="progress"></center>
+            </div>
+            <div class="control">
+                <div><button class="btn1"><i class="fa-solid fa-backward " style="color: #f53192;"></i></button></div>
+                <div><button class="btn"><i class="fa-solid fa-play btn99" style="color: #fff;"></i></button></div>
+                <div><button class="btn2"><i class="fa-solid fa-forward btn2" style="color: #f53192;"></i></button></div>
+            </div>
+        </div>
+    </div>
+    <script src="app.js"></script>
+</body>
+</html>
